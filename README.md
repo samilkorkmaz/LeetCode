@@ -10,7 +10,7 @@ https://leetcode.com problem solutions.
 <a href="https://www.youtube.com/watch?v=xH__HUNVfH0&list=PLW7ZPvdSj-TToDuVDfc-gPxWNrBox2v5y&index=73&t=2s&ab_channel=KennyTalksCode">5 Tips for Studying LeetCode</a>
 <p>TODO
 <ul>
-    <li><a href="https://leetcode.com/problems/single-number/">Single Number</a>: Find out why <a href="https://github.com/samilkorkmaz/LeetCode/blob/1e8c1442cb55cf1a36a8ade44cb1003af7ed190e/SingleNumber.cpp#L11">my naive solution</a> takes 100x more time, atlhough my other solutions are also O(N^2).</li>
+    <li>Easy, #136 <a href="https://leetcode.com/problems/single-number/">Single Number</a>: Find out why <a href="https://github.com/samilkorkmaz/LeetCode/blob/1e8c1442cb55cf1a36a8ade44cb1003af7ed190e/SingleNumber.cpp#L11">my naive solution</a> takes 100x more time, atlhough my other solutions are also O(N^2).</li>
   <li>Easy, #70 <a href = "https://leetcode.com/problems/climbing-stairs/">Climbing Stairs</a></li>
   <li>Medium, #55 <a href="https://leetcode.com/problems/jump-game/">Jump Game</a></li>
   <li>Hard #10 <a href="https://leetcode.com/problems/regular-expression-matching">Regular Expression Matching</a></li>
