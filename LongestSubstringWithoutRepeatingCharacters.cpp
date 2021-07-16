@@ -8,7 +8,10 @@ public:
             for(size_t j=i+1; j<s.size(); j++) {
                 bool canAdd = true;
                 for(size_t k=0; k<sub.size(); k++) {
-                    if(s[j] == sub[k]) canAdd = false; //char to be added (s[j]) already exist in substring
+                    if(s[j] == sub[k]) { 
+                        canAdd = false; //char to be added (s[j]) already exist in substring
+                        break;
+                    }
                 }
                 if (canAdd) sub += s[j];
                 else break;
