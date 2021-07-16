@@ -13,4 +13,6 @@ https://leetcode.com problem solutions.
     <li><a href="https://leetcode.com/problems/single-number/">Single Number</a>: Find out why <a href="https://github.com/samilkorkmaz/LeetCode/blob/1e8c1442cb55cf1a36a8ade44cb1003af7ed190e/SingleNumber.cpp#L11">my naive solution</a> takes 100x more time, atlhough my other solutions are also O(N^2).</li>
   <li>Easy, #70 <a href = "https://leetcode.com/problems/climbing-stairs/">Climbing Stairs</a></li>
   <li>Medium, #55 <a href="https://leetcode.com/problems/jump-game/">Jump Game</a></li>
+  <li>Hard #10 <a href="https://leetcode.com/problems/regular-expression-matching">Regular Expression Matching</a></li>
+  <li>Hard #140 <a href="https://leetcode.com/problems/word-break-ii/">Word Break II</a></li>
 </ul>
