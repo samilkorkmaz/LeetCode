@@ -8,3 +8,5 @@ https://leetcode.com problem solutions.
 </ol>  
   
 <a href="https://www.youtube.com/watch?v=xH__HUNVfH0&list=PLW7ZPvdSj-TToDuVDfc-gPxWNrBox2v5y&index=73&t=2s&ab_channel=KennyTalksCode">5 Tips for Studying LeetCode</a>
+
+<a href="https://leetcode.com/problems/single-number/">Single Number</a>: Find out why the naive solution takes 100x more time, atlhough the other solutions are also O(N^2).
