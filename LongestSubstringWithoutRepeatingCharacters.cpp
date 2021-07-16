@@ -13,7 +13,7 @@ public:
                         break;
                     }
                 }
-                if (canAdd) sub += s[j];
+                if (canAdd) sub.append({s[j]});
                 else break;
             }
             //printf("i=%d, sub = %s, size = %d\n",i , sub.c_str(), sub.size());
