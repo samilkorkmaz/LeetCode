@@ -3,7 +3,7 @@ class Solution {
 public:
     int strStr(string haystack, string needle) {
         if(needle.empty()) return 0;        
-        //printf("p = %p\n", strstr(haystack.c_str(), needle.c_str())); //Note: returns 0 (NULL) when is haystack = "aaa" and needle = "aaaa", because needle is longer than haystack. However LeetCode expected result is 2, which is wrong!
+        //printf("s = %s\n", strstr(haystack.c_str(), needle.c_str())); //Note: strstr returns 0 (NULL) when is haystack = "aaa" and needle = "aaaa", because needle is longer than haystack. However LeetCode expected result is 2, which is wrong!
         int k = -1;
         for(size_t i = 0; i<haystack.size(); i++) {
             k = -1;
