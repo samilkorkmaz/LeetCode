@@ -13,7 +13,7 @@ public:
                 }
             }
             if(!isDuplicate) {
-                printf("k = %d, %d\n", k, nums[i]);
+                //printf("k = %d, %d\n", k, nums[i]);
                 nums[k] = nums[i];
                 k++;                
             }
