@@ -24,8 +24,8 @@ public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
         if(l1 && l2 ) { //both lists have elements
             ListNode* ml = new ListNode();
-            ListNode* cp = ml;
-            ListNode* pp = NULL;
+            ListNode* cp = ml; //current element
+            ListNode* pp = NULL; //previous element
             while(l1 || l2) {
                 if((l1 && l2) && (l1->val < l2->val)) {
                     cp->val = l1->val;
@@ -43,12 +43,12 @@ public:
                 cp->next = new ListNode();
                 cp = cp->next;                
             }
-            pp->next = NULL; //remove last element
+            pp->next = NULL; //remove last element which has a default value of zero
             return ml;
-        } else { //one of the lists is empty
+        } else { //at least one of the lists is empty
             if(l1 && !l2) return l1;            
             if(!l1 && l2) return l2;
-            return NULL; //both p1 and p2 are NULL            
+            return NULL; //both lists are empty            
         }
     }
 };
