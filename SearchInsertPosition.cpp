@@ -37,12 +37,16 @@ int searchInsertOLogN(vector<int>& nums, int target) {
 }
 
 int main() {
+    printf("Test for Search Insert Position started, please wait...\n");
     //vector<int> nums{ 1,3,5 }; int target = 2;
     //vector<int> nums{ 1,3 }; int target = 3;
     //vector<int> nums{ 1,3,5,6 }; int target = 7;
-    vector<int> nums; for (int i = -500000; i < 500000; i++) nums.push_back(i); int target = 1309;
-    int k2 = searchInsertOLogN(nums, target); //~1ms for vector with 100k elements
-    int k1 = searchInsertON(nums, target); //~36ms for vector with 100k elements
+    printf("Constructing input vector...\n");
+    vector<int> nums; for (int i = -5000000; i < 5000000; i++) nums.push_back(i); int target = 1309;
+    printf("Running O(N) function...\n");
+    int k1 = searchInsertON(nums, target); //~332ms for vector with 1M elements and target close to the middle
+    printf("Running O(log(N)) function...\n");
+    int k2 = searchInsertOLogN(nums, target); //~1ms for vector with 1M elements and target close to the middle
 
     printf("k1 = %d, k2 = %d\n", k1, k2);
 	printf("Press enter...\n");
