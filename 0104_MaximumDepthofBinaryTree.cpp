@@ -18,7 +18,7 @@ public:
         if(root==NULL) return d;
         d++;
         if(d > m) m = d;
-        printf("d = %d, m= %d\n", d, m);
+        //printf("d = %d, m= %d\n", d, m);
         maxDepth(root->left);        
         maxDepth(root->right);
         d--; //going back to root
